@@ -1146,3 +1146,26 @@
 2020/07/30 11:34:49 [crit] 44389#0: accept4() failed (24: Too many open files)
 2020/07/30 11:40:31 [emerg] 51393#0: "limit_conn_zone" directive is not allowed here in /webserver/nginx18/conf/vhost/com_proxy_cache.conf:6
 2020/07/30 11:42:17 [emerg] 52700#0: invalid parameter "rate:1r/s" in /webserver/nginx18/conf/nginx.conf:25
+2020/08/01 07:51:57 [emerg] 63262#0: invalid parameter "rate:1r/s" in /webserver/nginx18/conf/nginx.conf:25
+2020/08/01 07:52:42 [notice] 63864#0: signal process started
+2020/08/01 07:53:09 [crit] 63866#0: *12216 open() "/root/.htp" failed (13: Permission denied), client: 192.168.99.1, server: local.devopsman.cn, request: "GET / HTTP/1.1", host: "192.168.99.128"
+2020/08/01 07:53:10 [crit] 63866#0: *12217 open() "/root/.htp" failed (13: Permission denied), client: 192.168.99.1, server: local.devopsman.cn, request: "GET /favicon.ico HTTP/1.1", host: "192.168.99.128", referrer: "http://192.168.99.128/"
+2020/08/01 07:53:12 [crit] 63865#0: *12218 open() "/root/.htp" failed (13: Permission denied), client: 192.168.99.1, server: local.devopsman.cn, request: "GET / HTTP/1.1", host: "192.168.99.128"
+2020/08/01 07:53:13 [crit] 63865#0: *12219 open() "/root/.htp" failed (13: Permission denied), client: 192.168.99.1, server: local.devopsman.cn, request: "GET /favicon.ico HTTP/1.1", host: "192.168.99.128", referrer: "http://192.168.99.128/"
+2020/08/01 07:56:06 [notice] 66549#0: signal process started
+2020/08/01 07:56:27 [notice] 66778#0: signal process started
+2020/08/01 07:56:40 [error] 66780#0: *12220 open() "/webserver/nginx18/conf/authorization/.passwd" failed (2: No such file or directory), client: 192.168.99.1, server: local.devopsman.cn, request: "GET / HTTP/1.1", host: "192.168.99.128"
+2020/08/01 07:56:40 [error] 66780#0: *12220 open() "/webserver/nginx18/conf/authorization/.passwd" failed (2: No such file or directory), client: 192.168.99.1, server: local.devopsman.cn, request: "GET /favicon.ico HTTP/1.1", host: "192.168.99.128", referrer: "http://192.168.99.128/"
+2020/08/01 07:56:41 [error] 66780#0: *12220 open() "/webserver/nginx18/conf/authorization/.passwd" failed (2: No such file or directory), client: 192.168.99.1, server: local.devopsman.cn, request: "GET / HTTP/1.1", host: "192.168.99.128"
+2020/08/01 07:56:41 [error] 66780#0: *12220 open() "/webserver/nginx18/conf/authorization/.passwd" failed (2: No such file or directory), client: 192.168.99.1, server: local.devopsman.cn, request: "GET /favicon.ico HTTP/1.1", host: "192.168.99.128", referrer: "http://192.168.99.128/"
+2020/08/01 07:56:50 [error] 66780#0: *12220 open() "/webserver/nginx18/conf/authorization/.passwd" failed (2: No such file or directory), client: 192.168.99.1, server: local.devopsman.cn, request: "GET / HTTP/1.1", host: "192.168.99.128"
+2020/08/01 07:56:50 [error] 66780#0: *12220 open() "/webserver/nginx18/conf/authorization/.passwd" failed (2: No such file or directory), client: 192.168.99.1, server: local.devopsman.cn, request: "GET /favicon.ico HTTP/1.1", host: "192.168.99.128", referrer: "http://192.168.99.128/"
+2020/08/01 07:57:30 [error] 66780#0: *12222 open() "/webserver/nginx18/conf/authorization/.passwd" failed (2: No such file or directory), client: 192.168.99.1, server: local.devopsman.cn, request: "GET / HTTP/1.1", host: "192.168.99.128"
+2020/08/01 07:57:31 [error] 66780#0: *12222 open() "/webserver/nginx18/conf/authorization/.passwd" failed (2: No such file or directory), client: 192.168.99.1, server: local.devopsman.cn, request: "GET /favicon.ico HTTP/1.1", host: "192.168.99.128", referrer: "http://192.168.99.128/"
+2020/08/01 07:58:26 [error] 66779#0: *12224 open() "/webserver/nginx18/conf/authorization/.passwd" failed (2: No such file or directory), client: 192.168.99.1, server: local.devopsman.cn, request: "GET / HTTP/1.1", host: "local.devopsman.cn"
+2020/08/01 07:58:27 [error] 66779#0: *12224 open() "/webserver/nginx18/conf/authorization/.passwd" failed (2: No such file or directory), client: 192.168.99.1, server: local.devopsman.cn, request: "GET /favicon.ico HTTP/1.1", host: "local.devopsman.cn", referrer: "http://local.devopsman.cn/"
+2020/08/01 07:58:51 [notice] 68642#0: signal process started
+2020/08/01 07:58:52 [error] 66779#0: *12225 open() "/webserver/nginx18/conf/authorization/.passwd" failed (2: No such file or directory), client: 192.168.99.1, server: local.devopsman.cn, request: "GET / HTTP/1.1", host: "local.devopsman.cn"
+2020/08/01 07:58:53 [error] 68643#0: *12226 open() "/webserver/nginx18/html/favicon.ico" failed (2: No such file or directory), client: 192.168.99.1, server: local.devopsman.cn, request: "GET /favicon.ico HTTP/1.1", host: "local.devopsman.cn", referrer: "http://local.devopsman.cn/"
+2020/08/01 07:58:59 [error] 68643#0: *12227 open() "/webserver/nginx18/html/favicon.ico" failed (2: No such file or directory), client: 192.168.99.1, server: local.devopsman.cn, request: "GET /favicon.ico HTTP/1.1", host: "192.168.99.128", referrer: "http://192.168.99.128/"
+2020/08/01 08:00:17 [notice] 69706#0: signal process started
